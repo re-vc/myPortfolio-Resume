@@ -1,0 +1,20 @@
+.myblock {
+    width: 1rem;
+}
+.mydetailoverlay {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: .6;
+    font-size: .8rem;
+    letter-spacing: .125rem;    
+    user-select: none;    
+}
+
+// changes the design for screen height 640px and finally breaks at screen height 270px
+@media (max-height: 640px) {
+    .vanish-if640 {
+        display: none;
+    }
+}
