@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import anime from 'animejs/lib/anime.es.js';
 
 @Component({
   selector: 'app-aniverticalbanner',
