@@ -1,10 +1,12 @@
+.h-custom {
+    height: 150%;
+}
 .mydetailoverlay {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     margin-bottom: 0;
     margin-top: 0;
-    // line-height: .6;
-    // font-size: .8rem;
+    line-height: .6;    
     letter-spacing: .125rem;
     user-select: none;
 }
