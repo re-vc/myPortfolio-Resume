@@ -10,14 +10,14 @@ export class AniverticalbannerComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     anime({
-      targets: '#aniverticalbanner',      
-      keyframes: [
-        { translateY: 780 },
-        { translateY: 0, duration: 0 }
+      targets: '#aniverticalbanner',
+      translateY: [
+        { value: '-10vh', duration: 0 },
+        { value: '19.2vh', duration: 10000 }
       ],
-      duration: 8000,
       easing: 'linear',
-      loop: true,
+      direction: 'normal',
+      loop: true
     });
   }
 }
